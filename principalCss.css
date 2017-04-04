@@ -1,6 +1,41 @@
- body {
+.corpo {
+ 	background-color:#f5f8fa;
+ 	margin-left: auto;
+	margin-right: auto;
+	max-width: 1190px;
+	width: 1190px;
+	height: 720px;
+ }
+
+ body{
  	background-color:#f5f8fa;
  }
+
+#header {
+	border:solid;
+	border-color: #f5f8fa;
+	max-width: 100%;
+ 	height: 20%;
+ 	color: black;
+ 	margin-bottom: 10px;	
+}
+
+#profile2{
+	background-color: #1d9ed0;
+	
+}
+
+#tend{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-top:solid;
+	border-color: #f5f8fa;
+	border-top-width: 10px;
+	padding: 5px;
+}
+
+
 
 div{
 	background-color:white;
@@ -23,7 +58,7 @@ a.two{
 	text-decoration: none;
 	color: #292f33;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 a.three{
@@ -38,7 +73,7 @@ a.four:link{
 }
 a.four:hover{
 	color: #1b95e0;
-	border-style: solid;
+	border-style: solid; border-bottom-width: 4px; border-top-width: 0; border-right-width: 0; border-left-width: 0;
     border-color: #1b95e0;
 }
 
@@ -49,16 +84,62 @@ a.four:hover{
 img.profile{
   width: 64px;
   height: 64px;
+  border-style: solid; border-color: white;
+  background-color: #1d9ed0;
+  border-radius: 7px;
+  margin-left: 5px;
+  margin-top: 3px;
 }
 
 .dados{
   width: 100%;
 }
 
-#center{
+#list{
+	list-style-type: none;
+}
+
+.colunaUm{
+	float: left;
+	height: 200px;
+	width: 25%;
+	margin-left: 10px; 
+	margin-right: 10px; 
+	background-color: white;
+	border-radius: 10px;
+}
+
+.colunaDois{
+	background-color: #e5f2f7;
+	border-radius: 10px;
+	margin-right: 10px; 
+	height: 200px;
+	width: 47%;
+	float: left;
+}
+.colunaTres{
+	background-color:white;
+	width: 22%;
+	float: left;
+	border-radius: 10px;
+}
+
+.relative{
+	position: relative;	
+}
+.relative2{
+	position: relative;
+	top: -10px;	
+}
+
+.relative3{
+	margin-top: 10px;
+	position: relative;
+	top: 10px;	
 	text-align: center;
 }
 
-#list{
-	list-style-type: none;
+#br{
+	margin: 1px;
+	color: #f5f8fa;
 }
