@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>Tizeeter</title>
+	<script src="principalJs.js" type="text/javascript"></script>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<link  href="principalCss.css" type="text/css" rel="stylesheet"> 
+	
 </head>
 <body>
 
@@ -28,28 +30,40 @@
 				<a class="two" href="Perfil">Nome Completo do Usuario</a><br>
 				<a class="three" href="Perfil">@usuario</a>
 				<ul>
-					<li><a class="one" href="Zeets">Zeets 300</a></li>
-					<li><a class="one" href="Seguindo">Seguindo 100</a></li>
-					<li><a class="one" href="Seguidores">Seguidores 100</a></li>
+					<li><a class="one" href="Zeets">Zeets</a></li>
+					<li><a class="one" href="Seguindo">Seguindo</a></li>
+					<li><a class="one" href="Seguidores">Seguidores</a></li>
 				</ul>
 			</div>
 		</div>
 
 		<div class="colunaDois">
+
+			<div class="digit">
+				<form name="form" action="">
+					<div>
+						<textarea name="texto" rows="5" cols="1" onkeypress="contador()" onkeyup="contador()">
+						</textarea>
+						
+					</div>
+					<div id="spacing">
+						<button id="bot" class="botao" type="submit">Enviar</button>
+						<span class="contUm" id="total">140</span>
+					</div>
+				</form>
+			</div>
 			
 			<div class="relative">
 				<img src="usu.png" alt="User" width="64" height="64"><a class="two" href="Perfil">Fulano </a><a class="three" href="Perfil">@fulano</a>
 				<p>
-					Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI 
-
+					Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.
 				</p>
 			</div>
 
 			<div class="relative2">
 				<img src="usu.png" alt="User" width="64" height="64"> <a class="two" href="Perfil">Cicrano </a><a class="three" href="Perfil">@cicrano</a>
 				<p>	
-					Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI 
-
+					Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos.
 				</p>
 			</div>
 		</div>
