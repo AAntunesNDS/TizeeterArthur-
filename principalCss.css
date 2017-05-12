@@ -74,12 +74,13 @@ a.three{
 	font-size: 13px;
 }
 
-a.four:link{
+a.four{
+	text-decoration: none;
 	color: #66757f;
 }
 a.four:hover{
 	color: #1b95e0;
-	border-style: solid; border-bottom-width: 4px; border-top-width: 0; border-right-width: 0; border-left-width: 0;
+	border-style: solid; border-bottom-width: 2px; border-top-width: 0; border-right-width: 0; border-left-width: 0;
     border-color: #1b95e0;
 }
 
@@ -167,10 +168,30 @@ img.profile{
 	background-color: #e5f2f7;
 }
 
-textarea{
+
+.tex{
 	resize: none;
 	width: 99%;
 }
+.tex2{
+	resize: none;
+	width: 99%;
+	color: red;
+}
+.tex3{
+	resize: none;
+	width: 99%;
+	color: gray;
+}
+.tex4{
+	resize: none;
+	width: 99%;
+	color: blue;
+}
+
+
+
+
 
 .botao{
 	float: right;
